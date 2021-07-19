@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GoHolder</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:400,300,600,800,900" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="all" id="alll">
+    <div class="modal-header">
+        <h1 class="logo">
+            <img src="Component 21.png" alt="" width="80" class="logo-icon"> GoHolder
+        </h1>
+    </div>
+    <div class="modal-content">
+        <p>Genarate Random data</p>
+        <button class="btn" id="refresh" onclick="go()">Go 🎲 </button>
+    </div>
+    <br> 
+    <div class="flex-container">
+        <div class="flex"><input type="checkbox" id="FullName">Name</div>
+        <div class="flex"><input type="checkbox" id="Phone">Phone</div> <br>
+        <div class="flex"><input type="checkbox" id="Adress">Adress</div>
+        <div class="flex"><input type="checkbox" id="Text">Lorem</div>
+        <div class="flex"><input type="number" max="5" value="1" min="1"  id="number">Paragraphs</div>
+    </div> <br>
+    <hr style="width: 85%;background-color: lightgrey;">
+    <div class="container">
+    
+
+    <i class="fa fa-user-o" aria-hidden="true"></i> &nbsp; <span id="name"></span> <br> 
+    <i class="fa fa-address-card-o" aria-hidden="true"></i> &nbsp; <span id="adress"></span> <br> 
+    <i class="fa fa-phone-square" aria-hidden="true"></i> &nbsp; <span id="phone"></span> <br>  
+    <i class="fa fa-pencil-square-o" aria-hidden="true"></i> &nbsp; <span id="lorem"> </span> <br>
+</div>
+    <br>
+     <div class="modal-icons">
+      <div class="flex-container">
+        <div class="flex">
+          <a href="https://www.linkedin.com/in/taoufik-ed-darraz-b07a0a180" target="_blank">
+            <i class="fa fa-linkedin"   ></i>
+          </a>
+        </div>
+        <div class="flex" >
+          <a href="https://github.com/taufikdev"   target="_blank">
+            <i class="fa fa-github"  ></i>
+          </a>
+        </div>
+        <div class="flex">
+          <a href="mailto:trensrealcontent@gmail.com"  target="_blank">
+            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+    </div>
+    <script src="popup.js"></script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "name":"goHolder",
+    "description":"demo extension",
+    "version":"1.0.0",
+    "icons":{"128":"Component 21.png"},
+    "browser_action":{
+        "default_icon":"Component 21.png",
+        "default_popup":"popup.html"
+    },
+    "permissions":["activeTab"]
+}
